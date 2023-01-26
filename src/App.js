@@ -14,7 +14,7 @@ function App() {
   const [myTodoList, setTodoList] = useState([
     {
       id: 1,
-      todo: "Changes on jayanti's code",
+      todo: "Changes on jayanti's codes",
       complete: false,
     },
     {
