@@ -19,7 +19,7 @@ function App() {
     },
     {
       id: 2,
-      todo: "major task 2",
+      todo: "major task 3",
       complete: false,
     },
     {
