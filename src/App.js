@@ -14,12 +14,12 @@ function App() {
   const [myTodoList, setTodoList] = useState([
     {
       id: 1,
-      todo: "Changes app.js",
+      todo: "Changes on jayanti's codes",
       complete: false,
     },
     {
       id: 2,
-      todo: "major task 2",
+      todo: "major task 3",
       complete: false,
     },
     {
@@ -125,3 +125,4 @@ function App() {
 }
 
 export default App;
+n;
