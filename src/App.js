@@ -14,7 +14,7 @@ function App() {
   const [myTodoList, setTodoList] = useState([
     {
       id: 1,
-      todo: "major task 1",
+      todo: "Changes on jayanti's code",
       complete: false,
     },
     {
@@ -28,11 +28,11 @@ function App() {
       complete: false,
     },
   ]);
-  fetch ("https://dummyjson.com/todos")
-  .then((res)=> res.json())
-  .then((data)=> setTodoList(data.todos) )
+  fetch("https://dummyjson.com/todos")
+    .then((res) => res.json())
+    .then((data) => setTodoList(data.todos));
 
- // fetch("https://dummyjson.com/todos")
+  // fetch("https://dummyjson.com/todos")
   //.then ((res)=> console.log("success"))
   //.catch((e)=> console.log("failure"))
   //.finally((res)=> console.log("everything done"))
@@ -69,7 +69,7 @@ function App() {
         complete: false,
       },
     ]);
-    console.log(myTodoList)
+    console.log(myTodoList);
   };
 
   const editItems = () => {
